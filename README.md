@@ -1,10 +1,12 @@
-# Car Manager V2 multi-véhicules
+# Car Manager V2.1 corrigée
 
-- ajout, modification, sélection et suppression de plusieurs véhicules ;
-- entretiens, calendrier, alertes et dépenses séparés par véhicule ;
-- écran Garage avec statistiques par véhicule et statistiques globales ;
-- migration automatique des données V1 stockées dans le navigateur ;
-- sauvegarde/import JSON V2 ;
-- fonctionnement hors ligne.
+Version multi-véhicules avec gestionnaires de clic explicites et initialisation après `DOMContentLoaded`. Elle corrige le blocage total des boutons de la V2.0. Le cache PWA est `car-manager-v2.1.0`.
 
-Remplacez les fichiers du dépôt, puis exécutez `git add .`, `git commit -m "Car Manager V2 multi véhicules"`, `git push`.
+## Mise à jour
+Remplacez tous les fichiers du dépôt, puis :
+```powershell
+git add .
+git commit -m "Correction Car Manager V2.1"
+git push
+```
+Les données V1 et V2 existantes sont conservées dans `localStorage`.
